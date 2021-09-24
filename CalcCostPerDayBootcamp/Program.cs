@@ -22,6 +22,8 @@ namespace TestConsoleApp
 
             */
             //Greg's Enhancements - easier to round a single variable! scalable in business solutions
+            // This is a comment ...
+
 
             var CostOfBootcamp = 15500m;
             var NumberofDays = 65;
