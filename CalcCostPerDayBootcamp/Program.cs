@@ -30,8 +30,9 @@ namespace TestConsoleApp
             var PricePerDay = CostOfBootcamp / NumberofDays;
             var PreMessage = "The Bootcamp costs";
             var PostMessage = " per day.";
-            Console.WriteLine($"{PreMessage} ${PricePerDay} {PostMessage}");
-
+            var Message = ($"{PreMessage} {PricePerDay} {PostMessage}");
+            Console.WriteLine($"{Message}");
+            System.Diagnostics.Debug.WriteLine($"{Message}");
             // Parth's Solution was to use Math.Round  - could potentially cause errors, but gets it in decimal format, use Greg's enhancement/version
             /*
             int Cost = 15500;
